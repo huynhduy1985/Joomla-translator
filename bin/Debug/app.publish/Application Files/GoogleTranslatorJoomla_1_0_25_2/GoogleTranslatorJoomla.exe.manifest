@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="GoogleTranslatorJoomla.exe" version="1.0.25.2" publicKeyToken="4a82eeccbf070c47" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="App.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="GoogleTranslatorJoomla" version="1.0.5130.24563" language="neutral" processorArchitecture="msil" />
+    <commandLine file="GoogleTranslatorJoomla.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GoogleTranslatorJoomla.exe" size="802816">
+      <assemblyIdentity name="GoogleTranslatorJoomla" version="1.0.5130.24563" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Ba1mcuVfUugh6nsEdY9ZUF6Fv5o=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="StringParser.dll" size="20480">
+      <assemblyIdentity name="StringParser" version="1.0.2206.35490" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>2ewLdjVR2vWXTOZU4paQ2qkE0NQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WebResourceProvider.dll" size="20480">
+      <assemblyIdentity name="WebResourceProvider" version="1.0.2206.29497" language="neutral" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>R66aZqseX/qfHPRPlZbEYL9IgaA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="App.ico" size="186047">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>RzXKbyjaNVfMDxy8JEVKUs4ysVc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Dependencies\StringParser.dll" size="20480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2ewLdjVR2vWXTOZU4paQ2qkE0NQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Dependencies\WebResourceProvider.dll" size="20480">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>R66aZqseX/qfHPRPlZbEYL9IgaA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="GoogleTranslatorJoomla.exe.config" size="117">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>a3Forh+i+nzyaONrpGeK7Sudu10=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=admin-PC\admin" issuerKeyHash="b44da06c0adac845ba9a550c52141e3ae8e1d461" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>hZZ/CS3Awav1LO+neZVESngZuq0=</DigestValue></Reference></SignedInfo><SignatureValue>FuoXn6RqhFn1wvx2Ecyv0nZ451lt/s2m0r78z+g14dkeNeiP1LbcxCHFLumn7i/QnrUh+xXEJ1rP7JpfuywHyzEYrE96mp5jztBHnk/QGSoNiCtVmD/poVFMwM22YFTHHSq6bJ/l3xBwpXUtzYHp8chR2GXip2gVPh9WueP5PUM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nlCbOr2Jg3NgWApM1rwpx9NAaNQrnrh91m/IbfoBYUjIc3dnxon5bqWtAV8uec4h8xbsGCU4h/qRSLZ5TPg/i7O/tpy8tEZk/6Sqpk8lUygLqTJL4AvsAlsVwhPL44CZFuzyObPTyie4Z8UeFOCt1Kepx3ZHXEYv74WYTX2B2xM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="adba19784a449579a7ef2cf5abc1c02d097f9685" Description="" Url=""><as:assemblyIdentity name="GoogleTranslatorJoomla.exe" version="1.0.25.2" publicKeyToken="4a82eeccbf070c47" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=admin-PC\admin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>v/ZXDz2uXxY3FSZFXobRNi6IeUA=</DigestValue></Reference></SignedInfo><SignatureValue>LYZXEG5Uh1WuPbXpdaW4OLJc+bIGMJYTy/LrUZ29heG7fPMxHaOGdZQruk72HE/lOsGeCvP8JCwP6pqurhvfaInHVQzg86B19H5XxjAvPSfi4wd/3EVi5Zdy9ERzN8cCUqmQDMve67GOAhOdQsNkbUQ3tza6wiIuOhbfgwAsn58=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nlCbOr2Jg3NgWApM1rwpx9NAaNQrnrh91m/IbfoBYUjIc3dnxon5bqWtAV8uec4h8xbsGCU4h/qRSLZ5TPg/i7O/tpy8tEZk/6Sqpk8lUygLqTJL4AvsAlsVwhPL44CZFuzyObPTyie4Z8UeFOCt1Kepx3ZHXEYv74WYTX2B2xM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQGS4n8W1rQZZO/m0R+jU0ljANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAYQBkAG0AaQBuAC0AUABDAFwAYQBkAG0AaQBuMB4XDTEzMDcwOTA2MjE1MloXDTE0MDcwOTEyMjE1MlowJzElMCMGA1UEAx4cAGEAZABtAGkAbgAtAFAAQwBcAGEAZABtAGkAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAnlCbOr2Jg3NgWApM1rwpx9NAaNQrnrh91m/IbfoBYUjIc3dnxon5bqWtAV8uec4h8xbsGCU4h/qRSLZ5TPg/i7O/tpy8tEZk/6Sqpk8lUygLqTJL4AvsAlsVwhPL44CZFuzyObPTyie4Z8UeFOCt1Kepx3ZHXEYv74WYTX2B2xMCAwEAATANBgkqhkiG9w0BAQUFAAOBgQB62tFl8L32p6SVxDW8JGfj4qA0ayzOismNjNY00Nd/IqzQ768/qaA4uIyTzNsknLYONxV+JS4+tld6yUcYpCbr99mNWLgw+cfvm+IHF7xuA+e5WV6JRi3ol6hBQiZN2Qi3CYkAmzbKTPww55eLIaNTN0cWhWVnkOts5C2zrHROfg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
